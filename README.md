@@ -2,7 +2,7 @@
 
 Elementwise processing and mapping of C++ tuples
 
-## Why
+## Why?
 
 Suppose you have a tuple of objects of possibly different types on which you want to apply a compile-time polymorphic function and store the result in another tuple. To achieve this, `cpp-tuple-tools` provides the functions `map_tuple` and `map_tuple_slice`, where the former processes a tuple completly and the latter works on a provided index range. There are also two functions `tuple_for_each` and `tuple_for_each_slice` to process a tuple elementwise without returning a tuple result.
 ```c++
